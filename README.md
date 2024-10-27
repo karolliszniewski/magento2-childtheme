@@ -1,22 +1,14 @@
 
-To edit: `vendor/magento/theme-frontend-luma/Magento_Theme/web/css/source/_module.less`
+To edit: `vendor/magento/theme-frontend-luma/Magento_Theme/web/css/source/`
 ```bash
-app
-└── design
-    └── frontend
-        └── MyVendor
-            └── MyChildTheme
-                ├── etc
-                │   └── view.xml
-                ├── registration.php
-                ├── web
-                │   ├── css
-                │   │   ├── source
-                │   │   │   ├── _module.less  
-                │   │   │   └── custom.less  
-                │   │   └── custom.css          
-                │   └── images                   
-                └── layout
-                    └── default_head_blocks.xml  
-
+app/design/frontend/AnimeKingdom/AnimeTheme
+├── registration.php
+├── theme.xml
+└── web
+    ├── css
+    │   └── source
+    │       ├── _extend.less
+    │       └── pages
+    │           └── _homepage.less
+    └── images 
 ```
