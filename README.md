@@ -38,7 +38,7 @@ vendor/magento/module-theme
 ```
 
 
-Here’s a breakdown of the folders in `app/code/Aware/Crud` and their functions in the Magento 2 Aware Crud module setup:
+Here’s a breakdown of the folders in `vendor/magento/module-theme`:
 
 - **Block**: Contains PHP classes for blocks used in the module. Blocks are backend logic containers that prepare data for rendering in the templates (PHTML files). They help connect Magento’s data with its frontend display.
 
